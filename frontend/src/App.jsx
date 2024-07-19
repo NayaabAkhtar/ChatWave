@@ -32,7 +32,7 @@ function App() {
 
   useEffect(()=>{
     if(authUser){
-      const socketio = io(`http://localhost:8080`, {
+      const socketio = io(`https://chatwave-o7y7.onrender.com`, {
           query:{
             userId:authUser._id
           }

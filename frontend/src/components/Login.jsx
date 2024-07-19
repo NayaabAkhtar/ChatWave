@@ -16,7 +16,7 @@ const Login = () => {
   const onSubmitHandler = async (e) => {
     e.preventDefault();
     try {
-      const res = await axios.post(`http://localhost:8080/api/v1/user/login`, user, {
+      const res = await axios.post(`https://chatwave-o7y7.onrender.com/api/v1/user/login`, user, {
         headers: {
           'Content-Type': 'application/json'
         },
