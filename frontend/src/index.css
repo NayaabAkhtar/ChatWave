@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background: url(/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+/*how to style scroll bar in home page using gfg article*/
+::-webkit-scrollbar {
+    /* Customize the scrollbar width */
+    width:6px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    /* Customize the scrollbar track */
+    background-color: aliceblue;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    /* Customize the scrollbar thumb */
+    background: #464646;
+    border-radius: 10px;
+  }
