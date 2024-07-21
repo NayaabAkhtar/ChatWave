@@ -35,8 +35,8 @@ const Login = () => {
   }
 
   return (
-    <div className="min-w-100 mx-auto">
-    <div className='w-full p-6 rounded-3xl shadow-md bg-gray-600 bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-0 border border-gray-100'>
+    <div className="min-w-96 mx-auto">
+    <div className='w-full p-6 rounded-3xl shadow-md bg-gray-900 bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-0 border border-gray-100'>
       <h1 className='text-3xl font-bold text-center text-white'>Login</h1>
       <form onSubmit={onSubmitHandler} action="">
 
@@ -47,7 +47,7 @@ const Login = () => {
           <input
             value={user.username}
             onChange={(e) => setUser({ ...user, username: e.target.value })}
-            className='w-full rounded-3xl input input-bordered h-10 text-gray-300'
+            className='w-full rounded-3xl input input-bordered h-10 text-gray-400'
             type="text"
             placeholder='Username' />
         </div>
@@ -58,7 +58,7 @@ const Login = () => {
           <input
             value={user.password}
             onChange={(e) => setUser({ ...user, password: e.target.value })}
-            className='w-full rounded-3xl input input-bordered h-10 text-gray-300'
+            className='w-full rounded-3xl input input-bordered h-10 text-gray-400'
             type="password"
             placeholder='Password' />
         </div>

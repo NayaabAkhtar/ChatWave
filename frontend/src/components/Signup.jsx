@@ -46,7 +46,7 @@ const Signup = () => {
   return (
     //tailwindcss glassmorphism generator
     <div className="min-w-96 mx-auto">
-      <div className='w-full p-6 rounded-3xl shadow-md bg-gray-600 bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-0 border border-gray-100'>
+      <div className='w-full p-6 rounded-3xl shadow-md bg-gray-900 bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-0 border border-gray-100'>
         <h1 className='text-3xl font-bold text-center text-white'>Signup</h1>
         <form onSubmit={onSubmitHandler} action="">
           <div>
@@ -56,7 +56,7 @@ const Signup = () => {
             <input
               value={user.fullName}
               onChange={(e) => setUser({ ...user, fullName: e.target.value })}
-              className='w-full rounded-3xl input input-bordered h-10 text-gray-300'
+              className='w-full rounded-3xl input input-bordered h-10 text-gray-400'
               type="text"
               placeholder='Full Name' />
           </div>
@@ -67,7 +67,7 @@ const Signup = () => {
             <input
               value={user.username}
               onChange={(e) => setUser({ ...user, username: e.target.value })}
-              className='w-full rounded-3xl input input-bordered h-10 text-gray-300'
+              className='w-full rounded-3xl input input-bordered h-10 text-gray-400'
               type="text"
               placeholder='Username' />
           </div>
@@ -78,7 +78,7 @@ const Signup = () => {
             <input
               value={user.password}
               onChange={(e) => setUser({ ...user, password: e.target.value })}
-              className='w-full rounded-3xl input input-bordered h-10 text-gray-300'
+              className='w-full rounded-3xl input input-bordered h-10 text-gray-400'
               type="password"
               placeholder='Password' />
           </div>
@@ -89,7 +89,7 @@ const Signup = () => {
             <input
               value={user.confirmPassword}
               onChange={(e) => setUser({ ...user, confirmPassword: e.target.value })}
-              className='w-full rounded-3xl input input-bordered h-10 text-gray-300'
+              className='w-full rounded-3xl input input-bordered h-10 text-gray-400'
               type="password"
               placeholder='Confirm Password' />
           </div>
