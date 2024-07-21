@@ -38,13 +38,13 @@ const SendInput = () => {
           onChange={(e) => setMessage(e.target.value)}
           type="text"
           placeholder="Send a message..."
-          className="border text-sm rounded-3xl block w-full p-3 border-zinc-600 bg-gray-800 text-gray-100"
+          className="border text-sm rounded-3xl block w-full p-3 border-zinc-600 bg-gray-800 text-gray-200"
         />
         <button
           type="submit"
           className="absolute flex inset-y-0 end-0 items-center mr-4"
         >
-          <IoSend className="text-green-500" />
+          <IoSend className="text-green-500 w-3 h-3" />
         </button>
       </div>
     </form>
