@@ -15,7 +15,7 @@ const HomePage = () => {
   }, []);
 
   return (
-    <div className='flex min-h-[500px] md:min-h-[570px] rounded-lg overflow-hidden bg-gray-900 bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-0'>
+    <div className='flex min-h-[500px] md:min-h-[570px] rounded-lg overflow-hidden bg-gray-700 bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-0'>
       <Sidebar/>
       <MessageContainer/>
     </div>
