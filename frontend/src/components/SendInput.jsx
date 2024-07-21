@@ -38,7 +38,7 @@ const SendInput = () => {
           onChange={(e) => setMessage(e.target.value)}
           type="text"
           placeholder="Send a message..."
-          className="border text-sm rounded-3xl block w-full p-3 border-zinc-600 bg-gray-800 text-white"
+          className="border text-sm rounded-3xl block w-full p-3 border-zinc-600 bg-gray-800 text-gray-100"
         />
         <button
           type="submit"
