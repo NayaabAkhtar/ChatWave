@@ -56,7 +56,7 @@ const Signup = () => {
             <input
               value={user.fullName}
               onChange={(e) => setUser({ ...user, fullName: e.target.value })}
-              className='w-full rounded-3xl input input-bordered h-10 text-gray-200 bg-gray-900'
+              className='w-full rounded-3xl input input-bordered h-10 text-gray-200 bg-gray-800'
               type="text"
               placeholder='Full Name' />
           </div>
@@ -67,7 +67,7 @@ const Signup = () => {
             <input
               value={user.username}
               onChange={(e) => setUser({ ...user, username: e.target.value })}
-              className='w-full rounded-3xl input input-bordered h-10 text-gray-200 bg-gray-900'
+              className='w-full rounded-3xl input input-bordered h-10 text-gray-200 bg-gray-800'
               type="text"
               placeholder='Username' />
           </div>
@@ -78,7 +78,7 @@ const Signup = () => {
             <input
               value={user.password}
               onChange={(e) => setUser({ ...user, password: e.target.value })}
-              className='w-full rounded-3xl input input-bordered h-10 text-gray-200 bg-gray-900'
+              className='w-full rounded-3xl input input-bordered h-10 text-gray-200 bg-gray-800'
               type="password"
               placeholder='Password' />
           </div>
@@ -89,7 +89,7 @@ const Signup = () => {
             <input
               value={user.confirmPassword}
               onChange={(e) => setUser({ ...user, confirmPassword: e.target.value })}
-              className='w-full rounded-3xl input input-bordered h-10 text-gray-200 bg-gray-900'
+              className='w-full rounded-3xl input input-bordered h-10 text-gray-200 bg-gray-800'
               type="password"
               placeholder='Confirm Password' />
           </div>
