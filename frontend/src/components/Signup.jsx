@@ -46,7 +46,7 @@ const Signup = () => {
   return (
     //tailwindcss glassmorphism generator
     <div className="min-w-96 mx-auto">
-      <div className='w-full p-6 rounded-3xl shadow-md bg-gray-600 bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-20 border border-gray-100'>
+      <div className='w-full p-6 rounded-3xl shadow-md bg-gray-600 bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-0 border border-gray-100'>
         <h1 className='text-3xl font-bold text-center text-white'>Signup</h1>
         <form onSubmit={onSubmitHandler} action="">
           <div>
