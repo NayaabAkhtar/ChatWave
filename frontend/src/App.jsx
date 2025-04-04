@@ -56,7 +56,7 @@ function App() {
   return (
     
     <div className="p-4 h-screen flex items-center justify-center">
-      <span className='absolute top-1 font-custom left-3 text-xl md:text-2xl lg:text-2xl font-extrabold bg-gradient-to-r from-sky-500 via-purple-500 to-red-500 bg-clip-text text-transparent'>ChatWave</span>
+      <span className='absolute top-1 font-custom left-3 text-xl md:text-2xl lg:text-2xl font-extrabold bg-gradient-to-r from-sky-500 via-purple-500 to-red-500 bg-clip-text text-transparent'>Chatify</span>
       <RouterProvider router={router}/>
     </div>
   )
